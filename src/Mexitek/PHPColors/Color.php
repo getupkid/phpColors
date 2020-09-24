@@ -158,7 +158,7 @@ class Color
         $g = (strlen("" . $g) === 1) ? "0" . $g : $g;
         $b = (strlen("" . $b) === 1) ? "0" . $b : $b;
 
-        return $r . $g . $b;
+        return "#" . $r . $g . $b;
     }
 
 
